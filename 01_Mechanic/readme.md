@@ -55,20 +55,20 @@ You find a lot of pictures in the [img folder](https://github.com/ThomasHeb/2Axi
 
 ### Steps
 - Drill a hole in one gentry plate to fix the laser mounting plate.
-- ![Mechanic_13](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_13.JPG)
+  ![Mechanic_13](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_13.JPG)
 
 - Drill a hole in the 2020 v-slot rail to fix the gentry.
 - Mount the idler pully.
-- ![Mechanic_14](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_14.JPG)
+  ![Mechanic_14](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_14.JPG)
 
 - Drill two holes in the 2020 v-slot rail to fix the gentry together with the motor mounting plate
 - Optional: Drill two holes in the motor mounting plate and cutt a threat to fix the combi holer (3D print)
 - Optional: Mount the combi holer (3D print) and the limit switch
 - Mount the stepper and the pully and the belt
-- ![Mechanic_15](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_15.JPG)
+  ![Mechanic_15](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_15.JPG)
 
 - You may change the screw for clamping the laser or sand it down a bit, so that the mouinting plate lies flat on the gentry 
 - Optional: Mount the cable clamp on the laser (3D print)
-- ![Mechanic_16](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_16.JPG)
+  ![Mechanic_16](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_16.JPG)
 
 
