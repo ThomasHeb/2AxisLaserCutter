@@ -21,3 +21,22 @@ The base idea ist very simple. Two independent linear axis with NEMA 17 stepper 
 
 I have a lot old paper plans for gliders. So I take some photos of the plans, imports these to SketchUp Make 2017, redraw and scale the plan. For generating the gcode, I wrote a small script. Description is below in section „Working with SketchUp“.
 
+
+
+
+# Videos
+
+ToDo
+
+
+# Mechanics
+
+- 2x linear v-slot actuator with NEMA 17 stepper
+- 2020 and 2040 profiles, screws, nuts
+- plates for stepper and connecting the profiles 
+- Neje Laser
+- 3D-printed parts for mounting the hardware on the rails
+
+A bill of material and detailed photos are in the folder [01_Mechanics](https://github.com/ThomasHeb/2AxisLaserCutter/01_Mechanics)
+
+
