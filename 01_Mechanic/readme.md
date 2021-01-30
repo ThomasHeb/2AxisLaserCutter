@@ -57,5 +57,5 @@ Draw a hole in one gentry plate to fix the laser mounting plate.
 
 Draw a hole in the 2020 v-slot rail to fix the gentry. 
 Mount the idler pully.
-![Mechanic_13](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_13.JPG)
+![Mechanic_14](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_14.JPG)
 
