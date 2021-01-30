@@ -17,6 +17,12 @@ The hardware is based on Arduino Mega with display and Ramps 1.4 Board. Ramps 1.
 # Blockdiagram / Connections
 
   ![Blockdiagram_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Blockdiagram_01.png)
-
+- Stepper X-axis on E0 socket on Ramps // 1/16 Microsteps (set all three jumpers)
+- Stepper Y-axis on E1 socket on Ramps // 1/16 Microsteps (set all three jumpers)
+- Optional limit switch X-axis on X- S/- on Ramps (1st from left, top view)
+- Optional limit switch Y-axis on X+ S/- on Ramps (2nd from left, top view)
+- E-Stopp: D63 / GND
+- Laser PWM input directly to D8 from Arduino (do not use Mosfet on Ramps)
+- Optional: Use a DC/DC Converter with 12V Outputvoltage to supply the Arduino / Laser
 
 
