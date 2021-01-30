@@ -78,7 +78,7 @@ You find a lot of pictures in the [img folder](https://github.com/ThomasHeb/2Axi
 ![Mechanic_17](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_17.JPG)
 
 ### Parts
-- 2x 8000mm 2040 v-slot rail
+- 2x 800mm 2040 v-slot rail
 - 1x NEMA 17 mounting plate
 - 1x Idler pully including plates
 - 1x NEMA 17 Stepper
@@ -88,4 +88,46 @@ You find a lot of pictures in the [img folder](https://github.com/ThomasHeb/2Axi
 - 1x optional limit switch
 
 ### Steps
-- Drill a hole in one gentry plate to fix the laser mounting plate.
+- Mount the motor plate with the NEMA 17 stepper
+- Add the Y-Axis
+- Mount the idler pully.
+- Optional: Mount the limit switch and the limit switch holder
+- Optional: Mount the holder for the cable chan and the cable chain itself
+- Mount the pully and the belt
+- Add the second 800 v-slot rail to the idler gentry
+  ![Limitswitch_02](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Limitswitch_02.JPG)
+  ![Limitswitch_04](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Limitswitch_04.JPG)
+  ![Mechanic_09](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_09.JPG)
+  
+
+
+## Connection rails with electronic
+![Mechanic_18](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_18.JPG)
+
+### Parts
+- 2x 350mm 2020 v-slot rail
+- 4x 90° Connector plate
+- 1x Arduino Mega
+- 1x Display
+- 1x Ramps
+- 1x optional DC DC Converter
+- 1x optional red and black connector
+- 1x optional blue button
+- 1x red button
+- 3D printed holder with inlay nuts
+
+
+### Steps
+- Mount the 90° connector plates on the edges of the 800mm 2040 v-slot rails
+- Connect the two rails with a two 350mm 2020 v-slot rails (these rails need to be cut)
+- Next to the motor mounting plate of the x-Axis: Make some space for the screw
+  ![Mechanic_19](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_19.JPG)
+- Mount the 3D printed holders for display, buttons, Arduino/Ramps and power connection (different options available, see SketchUp file / stl-files)
+  ![Button_03](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Button_03.JPG)
+  ![Display_03](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Display_03.JPG)
+  ![Display_04](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Display_04.JPG)
+  ![Power_03](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Power_03.JPG)
+- For wiring, see Section [02_Hardware](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/02_Hardware)
+  
+
+
