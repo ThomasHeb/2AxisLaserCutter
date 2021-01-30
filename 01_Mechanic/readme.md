@@ -1,7 +1,7 @@
 # Mechanics
 
 
-![mechanic_3](https://github.com/ThomasHeb/4AxisFoamCutter/blob/master/img/mechanic_3.JPG)
+![mechanic_3](https://github.com/ThomasHeb/2AxisLaserCutter/blob/master/img/Total_01.JPG)
 
 - 2x linear v-slot actuator with NEMA 17 stepper
 - 2020 and 2040 profiles, screws, nuts
