@@ -61,8 +61,8 @@ You find a lot of pictures in the [img folder](https://github.com/ThomasHeb/2Axi
 - Mount the idler pully.
   ![Mechanic_14](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_14.JPG)
 
-- Drill two holes in the 2020 v-slot rail to fix the gentry together with the motor mounting plate
-- Optional: Drill two holes in the motor mounting plate and cutt a threat to fix the combi holer (3D print)
+- Drill two holes (blue) in the 2020 v-slot rail to fix the gentry together with the motor mounting plate
+- Optional: Drill two holes (mangenta) in the motor mounting plate and cut a threat to fix the combi holer (3D print)
 - Optional: Mount the combi holer (3D print) and the limit switch
 - Mount the stepper and the pully and the belt
   ![Mechanic_15](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_15.JPG)
@@ -74,3 +74,18 @@ You find a lot of pictures in the [img folder](https://github.com/ThomasHeb/2Axi
 
 
 
+## X-Axis
+![Mechanic_17](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_17.JPG)
+
+### Parts
+- 2x 8000mm 2040 v-slot rail
+- 1x NEMA 17 mounting plate
+- 1x Idler pully including plates
+- 1x NEMA 17 Stepper
+- 1x Pully + Belt
+- 1x optional 3D printed "holder cable chain"
+- 1x optional 3D printed "holder limit switch"
+- 1x optional limit switch
+
+### Steps
+- Drill a hole in one gentry plate to fix the laser mounting plate.
