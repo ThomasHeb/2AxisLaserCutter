@@ -37,6 +37,6 @@ ToDo
 - Neje Laser
 - 3D-printed parts for mounting the hardware on the rails
 
-A bill of material and detailed photos are in the folder [01_Mechanics](https://github.com/ThomasHeb/2AxisLaserCutter/01_Mechanics)
+A bill of material and detailed photos are in the folder [01_Mechanics](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/01_Mechanic)
 
 
