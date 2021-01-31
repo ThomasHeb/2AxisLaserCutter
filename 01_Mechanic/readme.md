@@ -36,7 +36,8 @@ Please be aware, that you can buy laser engraver in complete kits at app. 200 EU
 # Assembly
 
 You find a lot of pictures in the [img folder](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/).
-Recommendation: Connect and wire the hardware (Arduino, Ramps, stepper, laser, …) first and test it. For to chapter [„Hardware“](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/02_Hardware) and chapter „First operation / setup“.
+
+Recommendation: Connect and wire the hardware (Arduino, Ramps, stepper, laser, …) first and test it. Refer to chapter [„Hardware“](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/02_Hardware) and chapter „First operation / setup“.
 
 ## Y-Axis
 ![Mechanic_12](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Mechanic_12.JPG)
