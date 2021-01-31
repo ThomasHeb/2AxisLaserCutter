@@ -144,8 +144,9 @@ The Arduino and the Ramps board are working without the stepper driver or motors
   - A good result is where the complete wood is cut through, corners are sharp.
   - My prefered setup is 4xS40F500 (4 repeates with 40% power and a feedrate of 500mm/min).
   - The resulting dimension is at the beginning not very important, because this can be adjusted in the design.
-  - You can use the "test01.gcode" file.
+  - You can use the "test01.gcode" file from the [06_Example](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/06_Example) Folder
   - You can generate your own test pattern with SketchUp and the laser cutter skript.
+    ![Test_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01.png)
   
   
 
