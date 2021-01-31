@@ -131,3 +131,8 @@ You find a lot of pictures in the [img folder](https://github.com/ThomasHeb/2Axi
   
 
 
+## Final
+Before tightening all screws, please ensure that all axis and the laser it self are orientated in a 90° angle, all movements are smooth.
+
+
+
