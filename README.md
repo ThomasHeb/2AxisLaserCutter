@@ -141,8 +141,8 @@ The Arduino and the Ramps board are working without the stepper driver or motors
 - I recommend to start with a 2mm balsa sheet
   - Take a 1mm balsa sheet and adjust the focus of the laser in the position menu with the dot
   - Make several test cuts with different power settings and feed speeds and repeats
-  - A good result is where the complete wood is cut through, corners are sharp.
-  - My prefered setup is 2xS40F400 (2 repeates with 40% power and a feedrate of 400mm/min).
+  - A good result is where the complete wood is cut through and corners are sharp
+  - My prefered setup is 2xS40F400 (2 repeates with 40% power and a feedrate of 400mm/min), or 3xS40F500, especially when the density of the balsa is a bit higher
   - The resulting dimension is at the beginning not very important, because this can be adjusted in the design.
   - You can use the "test01.gcode" file from the [06_Example](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/06_Example) Folder
   - You can generate your own test pattern with SketchUp and the laser cutter skript.
