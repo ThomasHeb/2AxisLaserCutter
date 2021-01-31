@@ -39,7 +39,7 @@ The hardware is based on Arduino Mega with display and Ramps 1.4 Board. Ramps 1.
 
 
     
-  - This block diagram shows an external power supply to operate the laser with a different voltage level as for the Arduino. The DC/DC converter supply the Arduino. Advantage is that you still have only one external power supply. Be aware, for Neje laser Arduino and laser must have the same ground level, please connect GND of the laser to GND of Arduino, too. Be aware that changing the voltage level for the laser may regulate it’s power, too. This means you have to adjust your settings (refer to First operation / setup).
+  - This block diagram shows an external power supply to operate the laser with a different voltage level as for the Arduino. The DC/DC converter supply the Arduino. Advantage is that you still have only one external power supply. Be aware, for Neje laser Arduino and laser must have the same ground level, please connect GND of the laser to GND of Arduino, too. Be aware that changing the voltage level for the laser may regulate it’s power, too. This means you have to adjust your settings (refer to First operation / setup). The block diagram shows a laser operating at app. 30 VDC
   ![Blockdiagram_02](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Blockdiagram_02.png)
 
 
