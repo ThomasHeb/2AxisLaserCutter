@@ -147,8 +147,8 @@ The Arduino and the Ramps board are working without the stepper driver or motors
   - You can use the "test01.gcode" file from the [06_Example](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/06_Example) Folder
   - You can generate your own test pattern with SketchUp and the laser cutter skript.
     ![Test_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01.png)
-    ![Test_01a](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01a.jpg)
-    ![Test_01b](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01b.jpg)
+    ![Test_01a](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01a.JPG)
+    ![Test_01b](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01b.JPG)
   
   
 
