@@ -112,13 +112,18 @@ The Arduino and the Ramps board are working without the stepper driver or motors
 - Connect 12V DC to Ramps 3/4
 - Connect the Arduino to USB. 
 - Go to position menu and check movement of the axis
-- Check direction of the axis, XXXX TODO
-- Calculate the Steps per mm, adjust parameter XXXX TODO
+- Check direction of the axis, 
+  - Otherwise open the parameters in the Serial Monitor of the Arduino IDE with $$
+  - Adjust parameter $7
+- Calculate the Steps per mm, adjust parameter $0 and $1
+  - Equation is : (USER_STEP_PER_REVOLUTION x USER_MICROSTEPS) / (USER_PITCH_BELT x USER_GEAR)
+  - Example: (200 steps/rpm x 16 Microsteps) / (2mm x 20) = 80
+  - Best is to adjust the defaults.h, compile and download and set parameter to default with $R
 - Operate the e-stopp, Arduino should go to Error. Reset the Arduino
 - Optional: Operate the limit switches, Arduino should go to Error. Reset the Arduino
 - Optional using limit switches: Go to homing menu and start a homing cycle. 
-  - Check if axis are moving to the right direction, otherwise adjust parameter XXXX TODO
-  - Check if debouncing is processed in the right direction, otherwise adjust parameter XXXX TODO
+  - Check if axis are moving to the right direction, otherwise adjust parameter $19
+- Check and adjust other parameters. refer to grbl parameter settings online.
 - Disconnect power supply and USB
 
 ## First operation of the laser
@@ -144,7 +149,7 @@ The Arduino and the Ramps board are working without the stepper driver or motors
   - A good result is where the complete wood is cut through and corners are sharp
   - My prefered setup is 2xS40F400 (2 repeates with 40% power and a feedrate of 400mm/min), or 3xS40F500, especially when the density of the balsa is a bit higher
   - The resulting dimension is at the beginning not very important, because this can be adjusted in the design.
-  - You can use the "test01.gcode" file from the [06_Example](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/06_Example) Folder
+  - You can use the "test_01.gcode" file from the [06_Example](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/06_Example) folder (1xS15F500 is used for the text)
   - You can generate your own test pattern with SketchUp and the laser cutter skript.
     ![Test_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01.png)
     ![Test_01a](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01a.JPG)
