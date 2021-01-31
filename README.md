@@ -50,7 +50,7 @@ ToDo
 - Neje Laser
 - 3D-printed parts for mounting the hardware on the rails
 
-A bill of material and detailed photos are in the folder [01_Mechanics](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/01_Mechanic)
+A bill of material (including hardware and electronics) and detailed photos are in the folder [01_Mechanics](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/01_Mechanic)
 
 
 
@@ -71,14 +71,6 @@ A block diagramm is provided in the folder [02_Hardware](https://github.com/Thom
 
 More Details here: [03_Firmware](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/03_Firmware)
 
-
-
-# Hardware
-
-- Arduino Mega with Ramps 1.4 board
-- Display and SD card reader for loacl operation
-
-A block diagramm is provided in the folder [02_Hardware](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/02_Hardware)
 
 
 
