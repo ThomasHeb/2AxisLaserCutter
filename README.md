@@ -128,29 +128,29 @@ The Arduino and the Ramps board are working without the stepper driver or motors
 
 ## First operation of the laser
 - Assemble and connect the laser
-- Operate alle the safety meassures / steps required, refer to the safety instructions and manuals of your laser
+- Operate all the safety measures / steps required, refer to the safety instructions and manuals of your laser
 - Connect 12V DC to Ramps 3/4
 - Go to position menu and toggle the laser dot. you should see a laser to on your table (0.2% of laser power, you can change this in defaults.h, DEFAULT_LASER_DOT, compiler run and firmware upload is required)
-- adjust the focus of the lense of your laser
+- adjust the focus of the lens of your laser
 - Operate the e-stopp, Arduino should go to Error, laser should switch off. Reset the Arduino
 - Optional: Operate the limit switches, Arduino should go to Error, laser should switch off. Reset the Arduino
 - Optional using limit switches:
   - Go to position menu and toggle the laser dot on.
-  - Move the laser to your preferes mechanical zero position.
+  - Move the laser to your prefers mechanical zero position.
   - Push the back button (stop button on display)
-  - Go to homing menu and select "set as new pull-off?", committ by pushing the rotary knob
+  - Go to homing menu and select "set as new pull-off?", acknowledge by pushing the rotary knob
   - This position is stored and accessed with the next homing cycle
 
 ## Find best settings for the laser
-- To achive good cutting results, you must find the right settings for each material type and thickness
+- To achieve good cutting results, you must find the right settings for each material type and thickness
 - I recommend to start with a 2mm balsa sheet
   - Take a 1mm balsa sheet and adjust the focus of the laser in the position menu with the dot
   - Make several test cuts with different power settings and feed speeds and repeats
   - A good result is where the complete wood is cut through and corners are sharp
-  - My prefered setup is 2xS40F400 (2 repeates with 40% power and a feedrate of 400mm/min), or 3xS40F500, especially when the density of the balsa is a bit higher
+  - My preferred setup is 2xS40F400 (2 repeats with 40% power and a feed rate of 400mm/min), or 3xS40F500, especially when the density of the balsa is a bit higher
   - The resulting dimension is at the beginning not very important, because this can be adjusted in the design.
   - You can use the "test_01.gcode" file from the [06_Example](https://github.com/ThomasHeb/2AxisLaserCutter/tree/main/06_Example) folder (1xS15F500 is used for the text)
-  - You can generate your own test pattern with SketchUp and the laser cutter skript.
+  - You can generate your own test pattern with SketchUp and the laser cutter script.
     ![Test_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01.png)
     ![Test_01a](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01a.JPG)
     ![Test_01b](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01b.JPG)
