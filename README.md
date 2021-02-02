@@ -1,5 +1,5 @@
 ## What is new?
-- project description still in process 
+- initial upload of project
 
 
 ## What is coming next?
