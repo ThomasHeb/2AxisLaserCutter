@@ -156,6 +156,32 @@ The Arduino and the Ramps board are working without the stepper driver or motors
     ![Test_01b](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/test_01b.JPG)
   
   
+  
+
+# SketchUp Script
+
+I use SketchUp for generating the stl-files for my 3D printed parts. I decided to write a small script which allows me to generate gcode for laser cutting. Currently I use only linear extrapolation in combination. The results are good.
+
+
+## What you need
+- SketchUp (I am using SketchUp Make 2017)
+- Ruby Code Editor
+- Download lasercutter.rb from the code section
+
+
+## Functionality and usage of laser.rb
+- Download the script from the folder /04_SketchUp/lasercutter.rb
+- Open the ruby code editor first and load and execute the lasercutter.rb. This adds 2 menus to the PlugIn menu.
+  - LaserCutter Settings: you can define some general settings, like inch/mm, used decimals.
+  - LaserCutter Tool: Generates gcode for all selected edges and face surfaces and exports it. 
+    - The red axis is used as horizontal
+    - The green axis is used as vertical 
+    - The algorithm converts surfaces to surrounding edges
+    - Searches all edge and generates gcode along the edges
+    - There is no algorith for optimizing travel distances
+
+## Check out the tutorial video
+- [Video tutorial](https://youtu.be/N7kasb9n7cc)
 
 
 
