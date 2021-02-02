@@ -19,7 +19,7 @@ Download the git from [4 Axis Foam Cutter](https://github.com/ThomasHeb/4AxisFoa
 - Select the version LASER_CUTTER in config.h file
 - Compile and download.
 
-![compiler_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/master/img/compiler_01.png)
+![compiler_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/compiler_01.png)
   
 
 ### Changes within the library U8G2 - only for information:
