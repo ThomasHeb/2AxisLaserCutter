@@ -61,6 +61,8 @@ Please search the web for more detailed grbl parameter settings.
 Please refer to grbl documentation for parameter settings and first steps. A good point to start is shown [HERE](https://github.com/ThomasHeb/2AxisLaserCutter#first-operation--setup)
 
 
-Back to main [page](https://github.com/ThomasHeb/2AxisLaserCutter)
+
+
+[Back to main page](https://github.com/ThomasHeb/2AxisLaserCutter)
 
 
