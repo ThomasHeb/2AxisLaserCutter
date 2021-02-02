@@ -10,9 +10,9 @@
 
 # 2AxisLaserCutter
 
-Arduino based CNC laser cutter with display and SD-Card.
-Shared firmware with [4AxisFoamCutter](https://github.com/ThomasHeb/4AxisFoamCutter)
-Ruby Script for SketchUp Make 2017 to generate gcode.
+- Arduino based CNC laser cutter with display and SD-Card.
+- Shared firmware with [4AxisFoamCutter](https://github.com/ThomasHeb/4AxisFoamCutter)
+- Ruby Script for SketchUp Make 2017 to generate gcode.
 
 ![Total_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Total_01.JPG)
 
