@@ -37,13 +37,11 @@ Due to the specific characteristics of laser radiation and the biological and ph
 
 
 # Videos
-
-ToDo
+- [Video tutorial](https://youtu.be/N7kasb9n7cc)
 
 
 
 # Mechanics
-
 - 2x linear v-slot actuator with NEMA 17 stepper
 - 2020 and 2040 profiles, screws, nuts
 - plates for stepper and connecting the profiles 
@@ -75,7 +73,6 @@ More Details here: [03_Firmware](https://github.com/ThomasHeb/2AxisLaserCutter/t
 
 
 # First operation / setup
-
 In this chapter you find some recommendations how to get started and how to setup the laser cutter.
 
 ## First test of Arduino.
@@ -159,7 +156,6 @@ The Arduino and the Ramps board are working without the stepper driver or motors
   
 
 # SketchUp Script
-
 I use SketchUp for generating the stl-files for my 3D printed parts. I decided to write a small script which allows me to generate gcode for laser cutting. Currently I use only linear extrapolation in combination. The results are good.
 
 
