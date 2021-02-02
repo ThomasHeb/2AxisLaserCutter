@@ -12,6 +12,27 @@ Many thanks to you, for writing and sharing this fantastic code.
 The firmware is a common project with [4 Axis Foam Cutter](https://github.com/ThomasHeb/4AxisFoamCutter).
 Download the git from [4 Axis Foam Cutter](https://github.com/ThomasHeb/4AxisFoamCutter) and use the firmware / librarys from the subfolder 
 
+
+### Major changes to FoamCutter firmware
+- Tool syncronisation a spindle or a hotwire is not very fast... it needs time to reach target rpm or target temperature
+  - A spindle or a hotwire is not very fast... it needs time to reach target rpm or target temperature
+  - So tool commands are not synchronised with grbl line execution, because you normally start the tool with M3 followed with a pause G4P3. The pause command will synchronise the execution.
+  - Using a laser requires laser synchronisation with movement within one gcode line, (especially if you are working with different shades)
+  - Tool synchronisation is included for Laser and Foam Cutter. You should still use pause commands for Foam Cutter to give some time to heat up. Laser Cutter operates gcode by switching on the laser with M3 and controlling it’s power wir S0…100 in each gcode line. 
+  - power control during ac/deceleration is not implemented yet. So good settings for grbl is fast ac/deceleration, medium speed (400 - 600 mm/min are tested), and medium laser power.
+- E-stopp is always active / other buttons are not supported
+  - Laser cutter has only two axis and manual operation of the laser is a safety issue.
+  - Position menu is operated with knob and back button (marked as stop on display) only.
+  - Laser can not be operated manually, only a focusing dot is available in position menu.
+  - E-stopp on pin D63 is always active - it does not match the standards for safety! Please ensure additional measure, i.e interrupting main power supply.
+  - Other buttons are not implemented
+- Common tool control
+  - implementation of hotwire is moved to tool to offer common tool control interface (hotwire and laser use same interface)
+- Compiler switches
+  - Select the version LASER_CUTTER in config.h file
+  - Separated default settings in defaults.h.
+
+
 ### How to install:
 - Download the firmware / library from [4 Axis Foam Cutter](https://github.com/ThomasHeb/4AxisFoamCutter)
 - Install (Copy!) the libraries from /03_Firmware/libraries directly in your ../Arduino/libraries/ folder (prefered, because updates of the original libraries may cause problems with grbl)
