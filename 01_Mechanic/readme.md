@@ -3,7 +3,7 @@
 
 ![Total_01](https://github.com/ThomasHeb/2AxisLaserCutter/blob/main/img/Total_01.JPG)
 
-I use 800mm 2040 v-slot rails, which gives me a operation length of app. 680mm (x-axis) and 350mm 2020 v-slot rails, which allows me to travel app. 200mm in depth (y-axis). You can change chance the length of the rails according to your required working dimensions.
+I use 800mm 2040 v-slot rails, which gives me a operation length of app. 680mm (x-axis) and 350mm 2020 v-slot rails, which allows me to travel app. 200mm in depth (y-axis). You can change the length of the rails according to your required working dimensions.
 Including stepper, arduino, you might invest app. 340 EUR. For the 3D-printed parts, additional costs have to be considered.
 Please be aware, that you can buy laser engraver in complete kits at app. 200 EUR. So I recommend this project only, if it is about boulding something from scratch.
 
