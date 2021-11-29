@@ -1,5 +1,5 @@
 ## What is new?
-- initial upload of project
+- G0 commands for seeking with laser off implemented (for use with Lightburn software)
 
 
 ## What is coming next?
